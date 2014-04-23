@@ -1,0 +1,9 @@
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\obj\x86\Release\LarBob's Multi-Tool.vbproj.GenerateResource.Cache
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\obj\x86\Release\LarBobMultiTool.Form1.resources
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\obj\x86\Release\LarBobMultiTool.Resources.resources
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\bin\Release\LarBob's Multi-Tool.exe
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\bin\Release\LarBob's Multi-Tool.pdb
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\bin\Release\LarBob's Multi-Tool.xml
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\obj\x86\Release\LarBob's Multi-Tool.exe
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\obj\x86\Release\LarBob's Multi-Tool.xml
+C:\Users\LarBob\documents\visual studio 2010\Projects\LarBob's Multi-Tool\LarBob's Multi-Tool\obj\x86\Release\LarBob's Multi-Tool.pdb
