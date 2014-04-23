@@ -23,4 +23,8 @@
     Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
         Process.Start("powershell")
     End Sub
+
+    Private Sub Button7_Click(sender As System.Object, e As System.EventArgs) Handles Button7.Click
+        Process.Start("cmd", "/k required\PingVPS_cont.bat")
+    End Sub
 End Class
