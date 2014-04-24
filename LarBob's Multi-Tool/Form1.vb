@@ -27,4 +27,16 @@
     Private Sub Button7_Click(sender As System.Object, e As System.EventArgs) Handles Button7.Click
         Process.Start("cmd", "/k required\PingVPS_cont.bat")
     End Sub
+
+    Private Sub Button10_Click(sender As System.Object, e As System.EventArgs) Handles Button10.Click
+        Process.Start("cmd", "/k required\traceroute.bat")
+    End Sub
+
+    Private Sub Button9_Click(sender As System.Object, e As System.EventArgs) Handles Button9.Click
+        Process.Start("cmd", "/k required\routeprint.bat")
+    End Sub
+
+    Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
+        Process.Start("cmd", "/k required\telnet.bat")
+    End Sub
 End Class

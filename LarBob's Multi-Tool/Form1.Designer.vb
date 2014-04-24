@@ -25,16 +25,19 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -54,6 +57,9 @@ Partial Class Form1
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.Button10)
+        Me.TabPage1.Controls.Add(Me.Button9)
+        Me.TabPage1.Controls.Add(Me.Button8)
         Me.TabPage1.Controls.Add(Me.Button7)
         Me.TabPage1.Controls.Add(Me.Button5)
         Me.TabPage1.Controls.Add(Me.Button1)
@@ -64,6 +70,15 @@ Partial Class Form1
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Networking"
         Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(89, 8)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(144, 23)
+        Me.Button7.TabIndex = 2
+        Me.Button7.Text = "PingVPS - Continuous Ping"
+        Me.Button7.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -96,6 +111,15 @@ Partial Class Form1
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Shell"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(101, 8)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(75, 23)
+        Me.Button6.TabIndex = 3
+        Me.Button6.Text = "PowerShell"
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'RichTextBox1
         '
@@ -143,23 +167,32 @@ Partial Class Form1
         Me.Button4.Text = "Control Panel"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'Button6
+        'Button8
         '
-        Me.Button6.Location = New System.Drawing.Point(101, 8)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 23)
-        Me.Button6.TabIndex = 3
-        Me.Button6.Text = "PowerShell"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Button8.Location = New System.Drawing.Point(8, 66)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(75, 23)
+        Me.Button8.TabIndex = 1
+        Me.Button8.Text = "Telnet"
+        Me.Button8.UseVisualStyleBackColor = True
         '
-        'Button7
+        'Button9
         '
-        Me.Button7.Location = New System.Drawing.Point(89, 8)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(144, 23)
-        Me.Button7.TabIndex = 2
-        Me.Button7.Text = "PingVPS - Continuous Ping"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Button9.Location = New System.Drawing.Point(89, 66)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(75, 23)
+        Me.Button9.TabIndex = 3
+        Me.Button9.Text = "Route Print"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(8, 95)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(75, 23)
+        Me.Button10.TabIndex = 4
+        Me.Button10.Text = "Traceroute"
+        Me.Button10.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -188,5 +221,8 @@ Partial Class Form1
     Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents Button8 As System.Windows.Forms.Button
 
 End Class
